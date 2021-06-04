@@ -1,0 +1,15 @@
+{
+  "x": "шаги",
+  "y": "награда",
+  "title": "График наград в зависимости от шага для сценариев с наградами",
+  "path": [
+    "~/Desktop/episodic-curiosity/ec_workdir/ppo_plus_grid_oracle/noreward/run_number_1/reward_test.csv",
+    "~/Desktop/episodic-curiosity/ec_workdir/ppo_plus_grid_oracle/sparse/run_number_1/reward_test.csv",
+    "~/Desktop/episodic-curiosity/ec_workdir/ppo_plus_grid_oracle/sparseplusdoors/run_number_1/reward_test.csv",
+    "~/Desktop/episodic-curiosity/ec_workdir/ppo_plus_grid_oracle/dense1/run_number_1/reward_test.csv",
+    "~/Desktop/episodic-curiosity/ec_workdir/ppo_plus_grid_oracle/dense2/run_number_1/reward_test.csv"
+    ],
+  "legend": ["PPO + No reward","PPO + Sparse","PPO + Sparse plus Doors","PPO + Dense1","PPO + Dense2"],
+  "fname": "pictures/result.png",
+  "steps": 1500
+}

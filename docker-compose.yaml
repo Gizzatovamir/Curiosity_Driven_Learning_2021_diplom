@@ -1,0 +1,15 @@
+version: "3.3"
+services:
+    train_agent:
+        build:
+            context: "."
+            dockerfile: "Dockerfile"
+        container_name: train_agent
+        volumes:
+            - ./:/ec_workdir
+        deploy:
+            resources:
+                reservations:
+                    devices:
+                        - device_ids: ['0']
+                          capabilities: [gpu]

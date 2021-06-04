@@ -1,0 +1,9 @@
+{
+  "x": "шаги",
+  "y": "награда",
+  "title": "График наград в зависимости от шага для сценария 6",
+  "path": ["~/Desktop/episodic-curiosity/ec_workdir/ppo_plus_grid_oracle/sparse/run_number_1/reward_train.csv","~/Desktop/episodic-curiosity/ec_workdir/ppo_plus_grid_oracle/sparse/run_number_1/reward_test.csv","~/Desktop/episodic-curiosity/ec_workdir/ppo_plus_grid_oracle/sparse/run_number_1/reward_valid.csv"],
+  "legend": ["Тренировочные награды","Тестовые награды","Действительные награды"],
+  "fname": "pictures/ppo_sparse_grid.png",
+  "steps": [1500,62,62]
+}
